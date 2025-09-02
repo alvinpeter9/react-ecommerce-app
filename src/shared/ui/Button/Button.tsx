@@ -38,6 +38,7 @@ export const Button = (props: ButtonProps) => {
         styles[shape],
         { [styles.disabled]: disabled }
       )}
+      id="button"
     >
       {children}
     </button>
