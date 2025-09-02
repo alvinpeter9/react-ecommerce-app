@@ -1,0 +1,39 @@
+{
+  "HEADER": {
+    "SEARCHBY": "Search by",
+    "CART_BTN": "Cart",
+    "LOGIN_BTN": "Login"
+  },
+  "FOOTER": {
+    "QUICK_LINKS": "Quick Links",
+    "ABOUT": "About",
+    "ABOUT_US": "About Us",
+    "COMPANY": "Company",
+    "CONTACT": "Contact",
+    "BLOG": "Blog",
+    "PRIVACY_POLICY": "Privacy Policy",
+    "TERMS_OF_SERVICE": "Terms of Service",
+    "RETURN_POLICY": "Return Policy",
+    "FOLLOW_US": "Follow Us",
+    "INSTAGRAM": "Instagram",
+    "FACEBOOK": "Facebook",
+    "TWITTER": "Twitter",
+    "HELP_SUPPORT": "Help & Support",
+    "FAQS": "FAQS",
+    "RECIPES": "Recipes",
+    "COPYRIGHT": "© {{year}} {{company}}. All rights reserved."
+  },
+  "PAGE_LOADER": {
+    "LOADING": "Loading..."
+  },
+  "PAGE_ERROR": {
+    "TITLE": "Something went wrong",
+    "DESCRIPTION": "Sorry, an unexpected error occurred. Please try refreshing the page or come back later.",
+    "RELOAD_BTN": "Try again"
+  },
+  "NOT_FOUND": {
+    "TITLE": "Page Not Found",
+    "DESCRIPTION": "The Page you're looking for isn't available. Try to search again or use the back button below.",
+    "BACK_BTN": "Go Back"
+  }
+}

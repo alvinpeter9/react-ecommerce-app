@@ -1,0 +1,30 @@
+import {
+  LOCAL_STORAGE_THEME_KEY,
+  Theme,
+  ThemeContext,
+  type ThemeType,
+} from "@/shared/config";
+import { useEffect, useState, type FC, type ReactNode } from "react";
+
+interface ThemeProviderProps {
+  children: ReactNode;
+}
+
+const defaultTheme =
+  (localStorage.getItem(LOCAL_STORAGE_THEME_KEY) as ThemeType) || Theme.PINK;
+
+const ThemeProvider: FC<ThemeProviderProps> = ({ children }) => {
+  const [theme, setTheme] = useState<ThemeType>(defaultTheme);
+
+  useEffect(() => {
+    document.body.className = theme;
+  }, [theme]);
+
+  return (
+    <ThemeContext.Provider value={{ theme, setTheme }}>
+      {children}
+    </ThemeContext.Provider>
+  );
+};
+
+export default ThemeProvider;

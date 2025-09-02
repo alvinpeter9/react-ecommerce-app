@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  border-radius: 100%;
+  background-color: var(--primary-color-light);
+  fill: var(--primary-color);
+}
+
+.filled {
+  fill: var(--primary-color);
+}

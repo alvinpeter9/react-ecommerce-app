@@ -1,0 +1,39 @@
+{
+  "HEADER": {
+    "SEARCHBY": "Suchen nach",
+    "CART_BTN": "Warenkorb",
+    "LOGIN_BTN": "Anmelden"
+  },
+  "FOOTER": {
+    "QUICK_LINKS": "Schnellzugriffe",
+    "ABOUT": "Über",
+    "ABOUT_US": "Über uns",
+    "COMPANY": "Unternehmen",
+    "CONTACT": "Kontakt",
+    "BLOG": "Blog",
+    "PRIVACY_POLICY": "Datenschutz-Bestimmungen",
+    "TERMS_OF_SERVICE": "Nutzungsbedingungen",
+    "RETURN_POLICY": "Rückgaberecht",
+    "FOLLOW_US": "Folge uns",
+    "INSTAGRAM": "Instagram",
+    "FACEBOOK": "Facebook",
+    "TWITTER": "Twitter",
+    "HELP_SUPPORT": "Hilfe & Unterstützung",
+    "FAQS": "FAQs",
+    "RECIPES": "Rezepte",
+    "COPYRIGHT": "© {{year}} {{company}}. Alle Rechte vorbehalten."
+  },
+  "PAGE_LOADER": {
+    "LOADING": "Wird geladen..."
+  },
+  "PAGE_ERROR": {
+    "TITLE": "Etwas ist schiefgelaufen",
+    "DESCRIPTION": "Entschuldigung, ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie, die Seite neu zu laden oder kommen Sie später wieder.",
+    "RELOAD_BTN": "Erneut versuchen"
+  },
+  "NOT_FOUND": {
+    "TITLE": "Seite nicht gefunden",
+    "DESCRIPTION": "Die Seite, die Sie suchen, ist nicht verfügbar. Versuchen Sie es erneut mit der Suche oder verwenden Sie die Zurück-Schaltfläche unten.",
+    "BACK_BTN": "Zurück"
+  }
+}
