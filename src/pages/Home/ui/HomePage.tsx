@@ -1,7 +1,10 @@
-import styles from "./HomePage.module.scss";
-import { Footer, Header } from "@/widgets";
 import { useEffect, useState } from "react";
+
 import { Button } from "@/shared/ui";
+
+import styles from "./HomePage.module.scss";
+
+import { Footer, Header } from "@/widgets";
 
 const HomePage = () => {
   const [error, setError] = useState(false);
