@@ -1,4 +1,5 @@
 :root {
+  // Fonts
   --font-family-main: "Roboto", sans-serif;
   --font-size-xl: 32px;
   --font-line-xl: 40px;
@@ -22,9 +23,9 @@
   --font-line-xs: 16px;
   --font-xs: var(--font-size-xs) / var(--font-line-xs) var(--font-family-main);
 
-  --white: #ffffff;
-  --black: #000000;
-
+  // Colors
+  --white: #fff;
+  --black: #000;
   --gray-50: #f8f7f8;
   --gray-100: #f0eef0;
   --gray-200: #dddadd;
@@ -34,15 +35,13 @@
   --gray-600: #686069;
   --gray-700: #494349;
   --gray-800: #3e3b3f;
-
   --green-50: #f5fbf5;
   --green-100: #117e11;
-
   --red-50: #f9e9e9;
   --red-100: #b81e1e;
-
   --yellow-50: #f8f8e9;
   --yellow-100: #b8bb23;
 
+  // Others
   --container-padding: 80px;
 }

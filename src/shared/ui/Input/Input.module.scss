@@ -12,6 +12,7 @@
   &.focus {
     border-color: var(--primary-color);
   }
+
   &.disabled {
     background-color: var(--gray-50);
   }
@@ -33,9 +34,5 @@
 
   &.disabled {
     color: var(--gray-300);
-
-    &::placeholder {
-      color: var(--gray-300);
-    }
   }
 }
