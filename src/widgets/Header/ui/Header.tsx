@@ -13,10 +13,10 @@ import UserIcon from "@/shared/assets/icons/Users.svg?react";
 
 const Header = () => {
   const { t } = useTranslation();
-  const naviagte = useNavigate();
+  const navigate = useNavigate();
 
   const handleLoginClick = () => {
-    naviagte(routePaths.login);
+    navigate(routePaths.login);
   };
 
   return (
